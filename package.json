@@ -1,0 +1,27 @@
+{
+  "name": "react-native-spatialite",
+  "version": "0.1.0",
+  "description": "React Native Spatialite Plugin for Android.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "sqlite",
+    "spatialite"
+  ],
+  "author": "INDEC",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indec-it/react-native-spatialite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/indec-it/react-native-spatialite/issues"
+  }
+}
