@@ -6,22 +6,28 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.0",
+    "@commitlint/travis-cli": "^7.2.0",
+    "husky": "^1.1.1",
+    "react-native": "^0.57.2"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
   "keywords": [
     "react-native",
     "android",
     "sqlite",
     "spatialite"
   ],
-  "author": "INDEC",
-  "license": "MIT",
-  "peerDependencies": {
-    "react-native": "^0.41.2"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/indec-it/react-native-spatialite.git"
   },
   "bugs": {
     "url": "https://github.com/indec-it/react-native-spatialite/issues"
-  }
+  },
+  "author": "INDEC (https://github.com/indec-it)",
+  "license": "MIT"
 }

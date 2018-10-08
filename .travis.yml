@@ -1,0 +1,14 @@
+sudo: false
+dist: bionic
+language: node_js
+git:
+  depth: 3
+node_js:
+  - "10"
+before_install:
+  - "export TRAVIS_COMMIT_MSG=\"`git log --format=%B --no-merges -n 1`\""
+script:
+  - commitlint-travis
+cache:
+  directories:
+    - node_modules
