@@ -49,7 +49,7 @@ db.createConnection('test.db').then(connected => {
     return db.getVersion();
 }).then(
     array => {
-        console.log({arr});
+        console.log({array});
         return db.executeQuery('SELECT * FROM MyTable');
     }
 ).then(
